@@ -16,42 +16,42 @@
 </head>
 <body>
     <!-- Header -->
-<header class="header">
-    <div class="container main-nav">
-        <a href="./index.html" lang="en" class="logo">Web<span class="header-logo">Studio</span></a>
-        <nav>
-            <ul class="nav list">
-                <li class="nav-item">
-                    <a href="./index.html" class="nav-link">Студия</a>
+    <header class="header">
+        <div class="container main-nav">
+            <a href="./index.html" lang="en" class="logo">Web<span class="header-logo">Studio</span></a>
+            <nav>
+                <ul class="nav list">
+                    <li class="nav-item">
+                        <a href="./index.html" class="nav-link">Студия</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./portfolio.html" class="nav-link current">Портфолио</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="contacts">
+                <li class="contacts-item">
+                    <a class="contacts-link" href="mailto:info@devstudio.com">
+                        <svg class="icon-mail" width="16" height="12">
+                            <use href="./images/icons.svg#icon-mail"></use>
+                        </svg>
+                        info@devstudio.com
+                    </a>
                 </li>
-                <li class="nav-item">
-                    <a href="./portfolio.html" class="nav-link current">Портфолио</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">Контакты</a>
+                <li class="contacts-item">
+                    <a class="contacts-link" href="tell:+380961111111">
+                        <svg class="icon-phone" width="10" height="16">
+                            <use href="./images/icons.svg#icon-phone"></use>
+                        </svg>
+                        +38 096 111 11 11
+                    </a>
                 </li>
             </ul>
-        </nav>
-        <ul class="contacts">
-            <li class="contacts-list contacts-mail">
-                <a class="contacts-item" href="mailto:info@devstudio.com">
-                    <svg class="icon-mail" width="16" height="12">
-                        <use href="./images/icons.svg#icon-mail"></use>
-                    </svg>
-                    info@devstudio.com
-                </a>
-            </li>
-            <li class="contacts-list contacts-tel">
-                <a class="contacts-item" href="tell:+380961111111">
-                    <svg class="icon-phone" width="10" height="16">
-                        <use href="./images/icons.svg#icon-phone"></use>
-                    </svg>
-                    +38 096 111 11 11
-                </a>
-            </li>
-        </ul>
-    </div>
-</header>
+        </div>
+    </header>
     <main>
         <!-- Portfolio -->
         <section class="section">
@@ -81,7 +81,13 @@
                 <ul class="gallery">
                     <li class="gallery-item">
                         <a href="" class="gallery-link">
-                            <img class="gallery-image" src="./images/img-8-min.jpg" width="370" height="294" alt="фото компьютера">
+                            <div class="gallery-overlay">
+                                <img class="gallery-image" src="./images/img-8-min.jpg" width="370" height="294" alt="фото компьютера">
+                                <div class="gallery-text-container">
+                                    <p class="gallery-text-overlay">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
+                                    шпионажа и атак на защищённые сервера конкурентов.</p>
+                                </div>
+                            </div>
                             <div class="gallery-box">
                                 <h2 class="gallery-title">Технокряк</h2>
                                 <p class="gallery-text">Веб-сайт</p>
